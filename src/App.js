@@ -51,7 +51,7 @@ function App() {
     return (
       <div>
         {todos.map((todo) => {
-          
+          console.log('aa')
           return (
             <div key={todo.id}>
               <TodoItem
